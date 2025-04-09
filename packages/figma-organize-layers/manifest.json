@@ -1,0 +1,1 @@
+{"api":"1.0.0","editorType":["figma"],"id":"786286754606650597","name":"Organize Layers","main":"build/main.js","ui":"build/ui.js","menu":[{"name":"Organize Layers","command":"src/organize-nodes/main.ts--default"},{"separator":true},{"name":"Reset Plugin","command":"src/reset-plugin/main.ts--default"}],"relaunchButtons":[{"name":"Organize Layers","command":"organizeLayers"}]}

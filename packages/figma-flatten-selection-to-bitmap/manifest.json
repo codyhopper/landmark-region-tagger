@@ -1,0 +1,1 @@
+{"api":"1.0.0","editorType":["figma"],"id":"837846252158418235","name":"Flatten Selection to Bitmap","main":"build/main.js","ui":"build/ui.js","menu":[{"name":"Flatten Selection to Bitmap","command":"src/flatten-selection-to-bitmap/main.ts--default"},{"separator":true},{"name":"Settings","command":"src/settings/main.ts--default"}]}

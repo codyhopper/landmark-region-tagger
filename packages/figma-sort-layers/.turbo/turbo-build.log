@@ -1,0 +1,16 @@
+
+> figma-sort-layers@1.4.0 prebuild
+> npm run clean
+
+
+> figma-sort-layers@1.4.0 clean
+> rimraf '*.log' build 'src/**/*.css.d.ts'
+
+
+> figma-sort-layers@1.4.0 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 5.764s
+info Building...
+success Built in 0.210s

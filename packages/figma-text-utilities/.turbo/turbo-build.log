@@ -1,0 +1,19 @@
+
+> figma-text-utilities@0.0.1 prebuild
+> npm run clean
+
+
+> figma-text-utilities@0.0.1 clean
+> rimraf '*.log' build 'src/**/*.css.d.ts'
+
+
+> figma-text-utilities@0.0.1 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 6.643s
+info Building...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+success Built in 1.459s

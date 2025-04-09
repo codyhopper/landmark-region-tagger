@@ -1,0 +1,16 @@
+
+> figma-draw-mask-under-selection@1.1.0 prebuild
+> npm run clean
+
+
+> figma-draw-mask-under-selection@1.1.0 clean
+> rimraf '*.log' build 'src/**/*.css.d.ts'
+
+
+> figma-draw-mask-under-selection@1.1.0 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 3.710s
+info Building...
+success Built in 0.097s

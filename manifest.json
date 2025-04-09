@@ -1,0 +1,9 @@
+{
+    "name": "Landmark Region Tagger",
+    "id": "landmark-region-tagger",
+    "api": "1.0.0",
+    "main": "code.ts",
+    "ui": "ui/index.html",
+    "editorType": ["figma"],
+    "enableProposedApi": false
+  }

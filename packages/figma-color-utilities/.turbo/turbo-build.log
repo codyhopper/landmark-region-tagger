@@ -1,0 +1,16 @@
+
+> figma-color-utilities@0.0.0 prebuild
+> npm run clean
+
+
+> figma-color-utilities@0.0.0 clean
+> rimraf '*.log' build 'src/**/*.css.d.ts'
+
+
+> figma-color-utilities@0.0.0 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 5.268s
+info Building...
+success Built in 0.162s

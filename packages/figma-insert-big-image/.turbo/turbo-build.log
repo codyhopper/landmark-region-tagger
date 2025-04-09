@@ -1,0 +1,19 @@
+
+> figma-insert-big-image@1.3.0 prebuild
+> npm run clean
+
+
+> figma-insert-big-image@1.3.0 clean
+> rimraf '*.log' build
+
+
+> figma-insert-big-image@1.3.0 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 4.429s
+info Building...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+success Built in 0.835s

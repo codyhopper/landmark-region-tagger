@@ -1,0 +1,19 @@
+
+> figma-draw-slice-over-selection@1.6.0 prebuild
+> npm run clean
+
+
+> figma-draw-slice-over-selection@1.6.0 clean
+> rimraf '*.log' build 'src/**/*.css.d.ts'
+
+
+> figma-draw-slice-over-selection@1.6.0 build
+> build-figma-plugin --typecheck --minify
+
+info Type checking...
+success Type checked in 6.554s
+info Building...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+success Built in 1.386s

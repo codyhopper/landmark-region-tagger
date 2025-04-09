@@ -1,0 +1,26 @@
+
+> figma-format-currency@1.3.0 prebuild
+> npm run clean
+
+
+> figma-format-currency@1.3.0 clean
+> rimraf '*.log' build
+
+
+> figma-format-currency@1.3.0 build
+> npm run generate-currencies-ts && build-figma-plugin --typecheck --minify
+
+
+> figma-format-currency@1.3.0 generate-currencies-ts
+> tsx scripts/generate-currencies-ts.ts > src/utilities/data/currencies.ts && eslint --fix src/utilities/data/currencies.ts
+
+(node:63892) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("file%3A///Users/codyhopper/Sites/figma-landmark-tagger/node_modules/tsx/dist/loader.js", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+info Type checking...
+success Type checked in 1.352s
+info Building...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+success Built in 0.513s
